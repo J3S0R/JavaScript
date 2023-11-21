@@ -62,3 +62,33 @@ if (mot1 != mot2) {
 } else {
     console.log("Les deux mots sont identiques")
 }
+
+// Si age inférieur à 13 ans = Mickey Si entre 13 et 18 Regarder Matrix Sinon Regarder The Walking dead
+// const age = prompt("Entrez votre age ")
+const film1 = "Mickey"
+const film2 = "Matrix"
+const film3 = "The Walking Dead"
+
+ if (age <= 13) {
+     console.log("Je vous conseille de regarder " + film1)
+ } else if (age < 18) {
+     console.log("Je vous conseille de regarder " + film2)
+ } else {
+     console.log("Je vous conseille de regarder " + film3)
+ }
+
+ // Pour ce premier exercice, il est demandé de déclarer et définir trois variables numériques.
+
+// Si elles sont égales, écrire : « Les trois variables sont identiques. »
+// Si seulement deux sont identiques, écrire : « deux des variables sont de valeurs égales. »
+// Sinon, écrire : « Les trois variables sont différentes. »
+
+let a = 1
+let b = 2
+let c = 3
+
+if ((a === b) && (b === c) && (a === c)) {
+    console.log("Les trois variables sont identiques.")
+} else if ((a === b || a === c)) {
+    console.log("deux des variables sont de valeur égales.")
+} else console.log("Les trois variables sont différentes")
