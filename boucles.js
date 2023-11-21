@@ -1,6 +1,6 @@
 // Les boucles permettent de répéter des actions simplement et rapidement
 
-// tant que (ne s'arrête pas tant que x n'est pas finis)
+// tant que (ne s'arrête pas tant que la condition n'est pas vérifiée)
 // Exemple répéter un texte 10 fois :
 let i = 0
 while(i < 10) {
