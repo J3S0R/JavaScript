@@ -23,7 +23,7 @@ while(nombre % 2 !== 0) {
 // Génère un nombre aléatoire entre 1 et 10. Utilise une boucle while pour demander à l'utilisateur de deviner ce nombre. Continue jusqu'à ce que l'utilisateur devine correctement
 
 let random = 4
-guess = parseInt(prompt("Devinette : Saisissez un nombre entre 1 et 10"))
+let guess = parseInt(prompt("Devinette : Saisissez un nombre entre 1 et 10"))
 while(guess !== random) {
     guess = parseInt(prompt("Raté ! rééssayez"))
 } 

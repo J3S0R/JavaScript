@@ -8,7 +8,7 @@ let b = 2
 b = 3
 
 
-// Les valeurs assignables 
+// Les valeurs assignables (types)
 
 // int 
 const A = 10
