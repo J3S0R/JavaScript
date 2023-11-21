@@ -1,21 +1,24 @@
-// Les boucles permettent de répéter des actions simplement et rapidement
+// for : utilisée pour répéter une série d'instructions un certain nombre de fois
+// for (initialisation; condition; itération) {
+//     // instructions à répéter
+//   }
 
-// tant que (ne s'arrête pas tant que la condition n'est pas vérifiée)
-// Exemple répéter un texte 10 fois :
-let i = 0
-while(i < 10) {
-    console.log("Hello")
-    i = i + 1
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
 }
 
-// pour
-// Exemple répéter un texte 10 fois :
-for (let i = 0; i < 10; i++) {
-    console.log("Hello")
+
+// while : répète une série d'instructions tant qu'une condition est vraie
+// while (condition) {
+//     // instructions à répéter
+//   }
+  
+let i = 1;
+
+while (i <= 5) {
+    console.log(i);
+    i++;
 }
 
-// Exemple d'utilisation dans un tableau
-const notes = [10, 20, 25, 30, 50, 11] 
-for (let i = 0; i < notes.length; i++) {
-    console.log(notes[i])
-}
+
+
